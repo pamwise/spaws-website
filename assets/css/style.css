@@ -1,0 +1,55 @@
+/* Black & White Theme for Spaws_Graphics */
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #000;
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+.navbar {
+    background: #000;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
