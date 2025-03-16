@@ -66,3 +66,26 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+
+
+/* Custom styles for smaller screens */
+@media (max-width: 640px) {
+    .navbar {
+        padding: 10px;  /* Adjust navbar padding for mobile */
+    }
+    .navbar-link {
+        margin: 0 8px;  /* Less margin between navbar items on mobile */
+    }
+    .container {
+        padding: 15px;  /* Reduce container padding on mobile */
+    }
+}
+
+/* Custom styles for medium screens (tablet) */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 12px;  /* Adjust navbar padding for tablets */
+    }
+}
+
